@@ -11,14 +11,14 @@
 Below is the working YAML:
 # ASP.NET # Build and test ASP.NET projects. # Add steps that publish symbols, save build artifacts, deploy, and more: # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4 trigger: - test pool: vmImage: &#34;windows-latest&#34; variables: solution: &#34;AspNetCoreSpa.sln&#34; buildPlatform: &#34;Any CPU&#34; buildConfiguration: &#34;Release&#34; steps: - task: NuGetToolInstaller@1 displayName: Install Nuget - task: UseDotNet@2 displayName: Install 6.">
 <meta name="author" content="">
-<link rel="canonical" href="vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/">
-<link crossorigin="anonymous" href="/vladimirgeorgiev.github.io/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/vladimirgeorgiev.github.io/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="vladimirgeorgiev.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="vladimirgeorgiev.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="vladimirgeorgiev.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="vladimirgeorgiev.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="vladimirgeorgiev.github.io/safari-pinned-tab.svg">
+<link rel="canonical" href="https://vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://vladimirgeorgiev.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vladimirgeorgiev.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vladimirgeorgiev.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vladimirgeorgiev.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vladimirgeorgiev.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -62,7 +62,7 @@ Below is the working YAML:
 Below is the working YAML:
 # ASP.NET # Build and test ASP.NET projects. # Add steps that publish symbols, save build artifacts, deploy, and more: # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4 trigger: - test pool: vmImage: &#34;windows-latest&#34; variables: solution: &#34;AspNetCoreSpa.sln&#34; buildPlatform: &#34;Any CPU&#34; buildConfiguration: &#34;Release&#34; steps: - task: NuGetToolInstaller@1 displayName: Install Nuget - task: UseDotNet@2 displayName: Install 6." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-12-28T02:36:23+02:00" />
 <meta property="article:modified_time" content="2022-12-28T02:36:23+02:00" />
 
@@ -82,13 +82,13 @@ Below is the working YAML:
       "@type": "ListItem",
       "position":  2 ,
       "name": "Posts",
-      "item": "vladimirgeorgiev.github.io/post/"
+      "item": "https://vladimirgeorgiev.github.io/post/"
     }, 
     {
       "@type": "ListItem",
       "position":  3 ,
       "name": "Setting Up .NET Core with Angular CI/CD in Azure Devops",
-      "item": "vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/"
+      "item": "https://vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/"
     }
   ]
 }
@@ -110,14 +110,14 @@ Below is the working YAML:
   "dateModified": "2022-12-28T02:36:23+02:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/"
+    "@id": "https://vladimirgeorgiev.github.io/post/setting-up-aspnetcore-angular-cicd-azure-devops/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Vovalicious",
     "logo": {
       "@type": "ImageObject",
-      "url": "vladimirgeorgiev.github.io/favicon.ico"
+      "url": "https://vladimirgeorgiev.github.io/favicon.ico"
     }
   }
 }
@@ -139,7 +139,7 @@ Below is the working YAML:
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="vladimirgeorgiev.github.io" accesskey="h" title="Vovalicious (Alt + H)">Vovalicious</a>
+            <a href="https://vladimirgeorgiev.github.io" accesskey="h" title="Vovalicious (Alt + H)">Vovalicious</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -165,7 +165,7 @@ Below is the working YAML:
         </div>
         <ul id="menu">
             <li>
-                <a href="vladimirgeorgiev.github.io/vladimirgeorgiev.github.io/about/" title="About Me">
+                <a href="https://vladimirgeorgiev.github.io/about/" title="About Me">
                     <span>About Me</span>
                 </a>
             </li>
@@ -285,7 +285,7 @@ steps:
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="vladimirgeorgiev.github.io">Vovalicious</a></span>
+    <span>&copy; 2023 <a href="https://vladimirgeorgiev.github.io">Vovalicious</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
